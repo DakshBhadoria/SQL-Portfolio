@@ -11,4 +11,5 @@ SQL projects and data alalysis work while learning.
 - 'ORDER by DESC' to rank customers.
 - 'LIMIT' to filter top 10 results.
 **Outcome**: List of top 10 spending customers ranked in descending order.
+  
   **Screenshot**: See 'Project1.png.png' for visual proof.
