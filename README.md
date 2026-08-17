@@ -2,6 +2,7 @@
 SQL projects and data alalysis work while learning.
 ## Project 1: Customer Segmentation and Revenue Optimization Analysis 
 **Business Impact**: Identifying top-spending customers allows operations to forecast demand for high-value products, ensuring server capacity and prioritizing customer service support channels for premium buyers.
+
 **Goal**: Identify the top 10 highest-spending customers.
 
 **Database**: Chinook (sample database)
