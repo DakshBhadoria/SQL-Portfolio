@@ -35,4 +35,8 @@ SQL projects and data alalysis work while learning.
 |  Richard Cunningham | 47.62 |
 |  Luis Rojas | 46.62 |
 
-*Note: Full output screenshot available in the repository as 'project1.png'.*
+*Note: Full output results shown below.*
+
+![Full output screenshot](project1.png)
+
+
