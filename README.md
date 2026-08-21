@@ -36,8 +36,8 @@ SQL projects and data alalysis work while learning.
 |  Richard Cunningham | 47.62 |
 |  Luis Rojas | 46.62 |
 
-*Note: Full output results provided in Project 1 - Customer Segmentation/ project1.png.*
-
+*Note: Full output results provided below and in Project 1 - Customer Segmentation/ project1.png.*
+![Project 1 output](./Project%201%20-%20Customer%20Segmentation/%20project1.png)
 
 
 
