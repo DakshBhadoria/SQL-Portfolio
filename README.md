@@ -1,43 +1,45 @@
-# SQL-Portfolio - Supply Chain and Data Analytics 
-SQL projects and data alalysis work while learning.
-## Project 1: Customer Segmentation and Revenue Optimization Analysis 
-**Business Impact**: Identifying top-spending customers allows operations to forecast demand for high-value products, ensuring server capacity and prioritizing customer service support channels for premium buyers.
+# SQL Portfolio
 
-**Goal**: Identify the top 10 highest-spending customers.
+A collection of SQL projects I have built while learning and developing my data analysis skills.
 
-**Database**: Chinook (sample database)
+## Projects
 
-**Tools Used**: SQLite
-- **Key Skills Demonstrated**:
-- 
-- 'JOIN' to link customer and invoice tables.
-- 'SUM()' to calculate total spend per customer.
-- 'GROUP BY' to aggregate data.
-- 'ORDER by DESC' to rank customers.
-- 'LIMIT' to filter top 10 results.
-  
- ### SQL Code Execution
- 
- ```sql .
- SELECT Customer.FirstName, Customer.LastName, sum(invoice.total) as 'TotalSpend'
- FROM Customer
- JOIN Invoice on Customer.CustomerID=Invoice.CustomerID
- GROUP BY Customer.FirstName, Customer.LastName
- ORDER BY TotalSpend DESC
- LIMIT 10 ;
- ```
- 
-- **Outcome**: List of top 10 spending customers ranked in descending order.
-  
-  ### Key Findings (Top Results)
-|  Customer Name | Total Spend ($)
-| :---    | :--- |
-|  Helena Holý | 49.62 |
-|  Richard Cunningham | 47.62 |
-|  Luis Rojas | 46.62 |
+### 📊 Project 1 — Customer Segmentation & Revenue Optimization
 
-*Note: Full output results provided below and in Project 1 - Customer Segmentation/ project1.png.*
-![Project 1 output](./Project%201%20-%20Customer%20Segmentation/%20project1.png)
+Analyzed customer purchasing behavior and revenue patterns to identify high-value customers and business opportunities.
 
+**Skills demonstrated:**
+- SQL JOINs
+- Aggregation
+- GROUP BY
+- Filtering
+- ORDER BY
+- LIMIT
 
+[View Project 1 →](./Project%201%20-%20Customer%20Segmentation/)
 
+---
+
+### 📦 Project 2 — Supply Chain Analysis
+
+Analyzed customers, products, categories, orders, and revenue to identify key patterns and top-performing areas.
+
+**Skills demonstrated:**
+- SQL JOINs
+- Aggregation
+- GROUP BY
+- SUM()
+- COUNT()
+- ORDER BY
+- LIMIT
+
+[View Project 2 →](./Project%202%20-%20Supply%20Chain%20Analysis/)
+
+---
+
+## Tools
+
+- SQL
+- SQL Server
+- SQLite
+- GitHub
