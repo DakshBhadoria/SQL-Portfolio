@@ -37,6 +37,21 @@ Analyzed customers, products, categories, orders, and revenue to identify key pa
 
 ---
 
+### 🚛 Project 3 - Driver Safety and Revenue Analysis
+
+"Analysed driver performance, safety incidents, and revenue to identify high-value drivers with elevated safety exposure and highlight the link between operational activity and risk."
+
+**Skills demonstrated:**
+
+- SQL JOINs (3 tables)
+- Aggregation (`SUM`, `COUNT`, `AVG`)
+- CTE (`WITH`)
+- Window Functions (`ROW_NUMBER`, `LAG`)
+- Incident Percentage Calculation
+- GROUP BY
+- ORDER BY
+
+[View Project 3 →](./Project%203%20-%20Driver%20Safety%20and%20Revenue%20Analysis/)
 ## Tools
 
 - SQL
